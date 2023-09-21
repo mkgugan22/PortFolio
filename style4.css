@@ -1,0 +1,26 @@
+.container{
+    /* background-image:url('https://img.freepik.com/premium-photo/html-system-websites-concept_23-2150323552.jpg?size=626&ext=jpg&ga=GA1.1.1947080230.1694965322&semt=ais'); */
+    height: 100vh; /*whole website cover view of this field*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: cover; */
+   overflow: hidden;
+    /* overflow: hidden; */
+}
+@media screen and( max-width: 800px){
+    .container{
+       width: 70%;
+    }
+ }
+ 
+ @media screen and( max-width: 650px){
+    .container{
+       width: 80%;
+    }
+ }
+ 
+ @media screen and( max-width: 500px){
+    .container{
+       width: 99%;
+    }
+ }

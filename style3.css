@@ -1,0 +1,23 @@
+/* .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -60%);
+} */
+img{
+    max-width: 100%;
+    height: auto;
+}
+.carousel-caption {
+   /* background: rgba(0, 0, 0, 0.5); Add a semi-transparent background to captions*/
+    position: absolute; /* Position captions absolutely within the container */
+    top: 0; /* Place captions at the top of the container */
+    left: 0; /* Align captions to the left */
+    right: 0; /* Align captions to the right */
+    padding: 10px; /* Add padding for better readability */
+    color: white; /* Text color for captions */
+  }
+  
+  .carousel-inner {
+    position: relative; /* Make sure the images and captions are positioned correctly */
+  }
